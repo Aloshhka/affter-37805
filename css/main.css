@@ -1,13 +1,18 @@
 header{
     background-color: cadetblue;
-    height: 10vh;
+    /* height: 10vh; */
 }
 main{
-    height: 80vh;
+    /* height: 80vh; */
     background: linear-gradient(chocolate, red);
 }
 footer{
-    height: 10vh;
+    /* height: 10vh; */
     background-color: cadetblue;
-    color: bisque;
+}
+
+/* con esto hacemos que se ponga por ensima de todo el menu hamburguesa */
+.navbar{
+    position: fixed;
+    z-index: 1000;
 }
